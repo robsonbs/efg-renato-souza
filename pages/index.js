@@ -11,6 +11,13 @@ function Home() {
         >
           Introdução
         </a>
+        <a
+          href="files/ux-ui-aula002.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          HTML, CSS e JS
+        </a>
       </section>
     </>
   );
