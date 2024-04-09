@@ -19,6 +19,14 @@ function Home() {
         >
           HTML, CSS e JS
         </a>
+        <br />
+        <a
+          href="files/estudo-interface.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Estudo de Interfaces
+        </a>
       </section>
     </>
   );
