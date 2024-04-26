@@ -26,6 +26,13 @@ function Home() {
           rel="noopener noreferrer"
         >
           Estudo de Interfaces
+        </a><br />
+        <a
+          href="files/atividade-pratica-figma.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         Atividade prática Figma.com para 26 de abril
         </a>
       </section>
     </>
