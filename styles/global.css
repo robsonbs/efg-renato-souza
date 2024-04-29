@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: "border-box";
+}
+
+body {
+  /* background-color: #171023;*/
+  color: "$gray100";
+  -webkit-font-smoothing: "antialiased";
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Kalam";
+  font-weight: 400;
+}

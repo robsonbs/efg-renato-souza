@@ -1,0 +1,12 @@
+.section {
+  padding: 1rem;
+}
+.section span {
+  display: block;
+}
+.section a {
+  line-height: 2rem;
+}
+.section h1 {
+  padding-top: 2rem;
+}
