@@ -74,6 +74,36 @@ function Home() {
             Referências
           </a>
         </article>
+        <article>
+          <h2>Sobre o Trabalho de Conclusão do Curso</h2>
+          <span>
+            Para a concluir o curso técnico deve-se fazer além das atividades um
+            projeto que envolva o uso dos conhecimentos tratados nas matérias
+            tecnicas como Frontend e UX-UI. Conte-me um pouco sobre o que vão
+            fazer para que possa entender o que irão fazer.
+          </span>
+          <a
+            href="https://forms.gle/qxSL7Y56dhb8fMHh9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Formulário sobre o Projeto de conclusão do curso
+          </a>
+        </article>
+        <article>
+          <h2>Sobre a aulas de UX-UI</h2>
+          <span>
+            Formulário para dúvidas, dificuldades e sugestões sobre a matéria de
+            UX e UI.
+          </span>
+          <a
+            href="https://forms.gle/pXwtSeZ6YbnAg2Nw7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dúvidas, dificuldades e sugestões
+          </a>
+        </article>
       </section>
     </>
   );
