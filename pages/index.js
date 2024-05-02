@@ -47,20 +47,6 @@ function Home() {
           </a>
         </article>
         <article>
-          <h2>Introdução</h2>
-          <span>
-            Apresentações iniciais de Interface de Usuário(UI) e Experiência do
-            Usuário(UX) e os principais conceitos
-          </span>
-          <a
-            href="files/ux-ui-aula001.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            slides
-          </a>
-        </article>
-        <article>
           <h2>Atividade prática online</h2>
           <span>
             Com base nas telas do documento a seguir, utilizando o figma,
@@ -72,6 +58,21 @@ function Home() {
             rel="noopener noreferrer"
           >
             Referências
+          </a>
+        </article>
+        <article>
+          <h2>Importância do UX/UI</h2>
+          <span>
+            Uma boa UX/UI têm muito impacto no sucesso de um produto, físico ou
+            digital, conhecer os princípios e importância de considerar pontos
+            que podem indicar o sucesso ou queda de um produto
+          </span>
+          <a
+            href="files/ux-ui-aula003.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            slides
           </a>
         </article>
         <article>
