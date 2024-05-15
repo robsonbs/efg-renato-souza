@@ -76,6 +76,22 @@ function Home() {
           </a>
         </article>
         <article>
+          <h2>Design e prototipagem: a arte de construir sistemas</h2>
+          <span>
+            Construir bons sistemas é um processo de prática. Uma combinação de
+            conhecimento, inspiração, ferramentas e ação. Começamos a trilhar a
+            trilha do conhecimento, vamos seguir nessa trilha, mas agora pela
+            estrada das ferramentas.
+          </span>
+          <a
+            href="files/ux-ui-aula004.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            slides
+          </a>
+        </article>
+        <article>
           <h2>Sobre o Trabalho de Conclusão do Curso</h2>
           <span>
             Para a concluir o curso técnico deve-se fazer além das atividades um
