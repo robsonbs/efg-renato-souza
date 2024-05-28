@@ -4,7 +4,8 @@
   "description": "banco de dados das aulas ministradas na escola do futuro de Goiás de Valparaíso",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run services:up && next dev",
+    "dev": "npm run services:up && npm run wait-for-postgres && npm run migration:up && next dev",
+    "wait-for-postgres": "node infra/scripts/wait-for-postgres.js",
     "services:up": "docker compose -f infra/compose.yaml up -d",
     "services:stop": "docker compose -f infra/compose.yaml stop",
     "services:down": "docker compose -f infra/compose.yaml down",
