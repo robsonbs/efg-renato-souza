@@ -1,7 +1,7 @@
 import HeadLine from "components/headline";
 import NavBar from "components/navbar";
 
-export default function Home() {
+export default function NewHome() {
   return (
     <div
       className="HomeDesktop"

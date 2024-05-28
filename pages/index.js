@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./pages.module.css";
-import Frontend from "./frontend";
+
 function Home() {
   return (
     <>
