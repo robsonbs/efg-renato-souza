@@ -36,6 +36,10 @@ function Frontend() {
             rel="noopener noreferrer"
           >
             Referência Figma
+          </a>{" "}
+          Iniciando as CSS:{" "}
+          <a href="https://youtu.be/XkbCeZ8M2zw" target="_blank">
+            Página de receita - Aula 4
           </a>
         </article>
         <Link href="/"> Aulas de UX-UI</Link>
