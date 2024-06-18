@@ -36,10 +36,18 @@ function Frontend() {
             rel="noopener noreferrer"
           >
             Referência Figma
-          </a>{" "}
+          </a>
           Iniciando as CSS:{" "}
           <a href="https://youtu.be/XkbCeZ8M2zw" target="_blank">
             Página de receita - Aula 4
+          </a>
+          Avaliação:{" "}
+          <a
+            href="https://kahoot.it/challenge/01664726?challenge-id=a6277a3b-9978-4169-bcad-cbaa24acedab_1718734412266"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Kahoot
           </a>
         </article>
         <Link href="/"> Aulas de UX-UI</Link>
