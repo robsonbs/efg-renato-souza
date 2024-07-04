@@ -16,7 +16,7 @@ function checkPostgres(current) {
       process.stdout.write(
         `\r🔴 Aguardando Postgres aceitar conexões ${state[current % 6]} `
       );
-      await delay(300);
+      await delay(200);
       return checkPostgres((current + 1) % 6);
     }
     process.stdout.write("\n🟢 Postgres está pronto e aceitando conexões\n");
