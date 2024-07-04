@@ -1,3 +1,4 @@
+import orchestrator from "tests/orchestrator.js";
 import { cleanDatabase } from "./index.js";
 
 async function getMigrationsResponse(method) {
@@ -12,7 +13,10 @@ async function getDataBaseStatus() {
   return await response.json();
 }
 
-beforeAll(cleanDatabase);
+beforeAll(async () => {
+  await orchestrator.waitForAllServices();
+  cleanDatabase();
+});
 
 test("OTHER HTTP METHODS to /api/v1/migrations should not let opened connections in database", async () => {
   for (let method of ["HEAD", "PUT", "DELETE", "OPTIONS", "PATCH"]) {
