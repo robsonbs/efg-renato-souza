@@ -15,7 +15,7 @@ async function getDataBaseStatus() {
 
 beforeAll(async () => {
   await orchestrator.waitForAllServices();
-  cleanDatabase();
+  await cleanDatabase();
 });
 
 test("OTHER HTTP METHODS to /api/v1/migrations should not let opened connections in database", async () => {

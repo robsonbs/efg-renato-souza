@@ -3,7 +3,7 @@ import { cleanDatabase } from "./index.js";
 
 beforeAll(async () => {
   await orchestrator.waitForAllServices();
-  cleanDatabase();
+  await cleanDatabase();
 });
 
 test("POST /api/v1/migrations  should return status 200", async () => {
