@@ -21,7 +21,7 @@ export default function HeadLine() {
           <button className={styles.ctaSecondary}> Entre em contato </button>
         </div>
       </div>
-      <Image src={bro} />
+      <Image src={bro} alt="persona" />
     </div>
   );
 }
