@@ -359,7 +359,7 @@ export default function NewHome() {
                     wordWrap: "break-word",
                   }}
                 >
-                  Beyond coding, I'm a coffee enthusiast, a cat lover, and a
+                  Beyond coding, I am a coffee enthusiast, a cat lover, and a
                   self-taught artist who enjoys spending my free time doodling.
                   I am currently seeking opportunities to bring my skills and
                   enthusiasm to a tech company in the United States or Europe
