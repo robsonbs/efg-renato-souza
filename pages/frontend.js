@@ -38,7 +38,11 @@ function Frontend() {
             Referência Figma
           </a>
           Iniciando as CSS:{" "}
-          <a href="https://youtu.be/XkbCeZ8M2zw" target="_blank">
+          <a
+            href="https://youtu.be/XkbCeZ8M2zw"
+            target="_blank"
+            rel="noreferrer"
+          >
             Página de receita - Aula 4
           </a>
           Avaliação:{" "}

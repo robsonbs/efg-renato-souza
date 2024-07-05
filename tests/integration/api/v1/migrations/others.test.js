@@ -19,7 +19,7 @@ beforeAll(async () => {
 });
 
 test("OTHER HTTP METHODS to /api/v1/migrations should not let opened connections in database", async () => {
-  for (let method of ["HEAD", "PUT", "DELETE", "OPTIONS", "PATCH"]) {
+  for (const method of ["HEAD", "PUT", "DELETE", "OPTIONS", "PATCH"]) {
     await cleanDatabase();
 
     const migrationsResponse = await getMigrationsResponse(method);

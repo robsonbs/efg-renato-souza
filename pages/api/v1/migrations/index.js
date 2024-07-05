@@ -22,7 +22,7 @@ export default async function migrations(request, response) {
   let dbClient;
   try {
     dbClient = await database.getNewClient();
-    const liveRun = request.method === "POST" ? true : false;
+    const liveRun = request.method === "POST";
     const options = getMigrationOptions(dbClient, liveRun);
     const migrations = await migrationRunner(options);
     const status = liveRun && migrations.length > 0 ? 201 : 200;
