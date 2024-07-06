@@ -1,6 +1,5 @@
-/* eslint-disable */
-
-exports.shorthands = undefined;
+/* eslint-disable no-unused-vars */
+/* eslint-disable camelcase */
 
 exports.up = async (pgm) => {
   await pgm.createIndex("contents", ["id", "parent_id"], {
