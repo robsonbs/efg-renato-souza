@@ -1,5 +1,6 @@
 import HeadLine from "components/headline";
 import NavBar from "components/navbar";
+import Image from "next/image";
 
 export default function NewHome() {
   return (
@@ -608,7 +609,7 @@ export default function NewHome() {
                   display: "flex",
                 }}
               >
-                <img
+                <Image
                   className="ProjectImage"
                   style={{
                     alignSelf: "stretch",
@@ -617,6 +618,7 @@ export default function NewHome() {
                     borderTopRightRadius: 8,
                   }}
                   src="https://via.placeholder.com/336x160"
+                  alt="336160"
                 />
                 <div
                   className="Section"
@@ -660,10 +662,11 @@ export default function NewHome() {
                         display: "flex",
                       }}
                     >
-                      <img
+                      <Image
                         className="Vector"
                         style={{ width: 23.47, height: 23.47 }}
                         src="https://via.placeholder.com/23x23"
+                        alt="23x23"
                       />
                     </div>
                   </div>
@@ -738,7 +741,7 @@ export default function NewHome() {
                   display: "flex",
                 }}
               >
-                <img
+                <Image
                   className="ProjectImage"
                   style={{
                     alignSelf: "stretch",
@@ -747,6 +750,7 @@ export default function NewHome() {
                     borderTopRightRadius: 8,
                   }}
                   src="https://via.placeholder.com/336x160"
+                  alt="336x160"
                 />
                 <div
                   className="Section"
@@ -896,7 +900,7 @@ export default function NewHome() {
                   display: "flex",
                 }}
               >
-                <img
+                <Image
                   className="ProjectImage"
                   style={{
                     alignSelf: "stretch",
@@ -905,6 +909,7 @@ export default function NewHome() {
                     borderTopRightRadius: 8,
                   }}
                   src="https://via.placeholder.com/336x160"
+                  alt="336x160"
                 />
                 <div
                   className="Section"
@@ -951,10 +956,11 @@ export default function NewHome() {
                         display: "flex",
                       }}
                     >
-                      <img
+                      <Image
                         className="Vector"
                         style={{ width: 23.47, height: 20.96 }}
                         src="https://via.placeholder.com/23x21"
+                        alt="23x21"
                       />
                     </div>
                     <div
