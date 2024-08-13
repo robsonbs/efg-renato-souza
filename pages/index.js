@@ -94,6 +94,17 @@ function Home() {
           </a>
         </article>
         <article>
+          <h2>Usabilidade e interação</h2>
+          <span>Compreensão das necessidades do usuário</span>
+          <a
+            href="files/ux-ui-aula005.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            slides
+          </a>
+        </article>
+        <article>
           <h2>Sobre o Trabalho de Conclusão do Curso</h2>
           <span>
             Para a concluir o curso técnico deve-se fazer além das atividades um
