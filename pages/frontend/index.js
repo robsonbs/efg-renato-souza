@@ -60,7 +60,8 @@ function Frontend() {
         <h2>3º Bimestre</h2>
         <article>
           <h2>Introdução ao JavaScript(JS)</h2>
-          Linguagem de programação para web, capaz de permitir adicionar interatividades e novas funções nas páginas web.
+          Linguagem de programação para web, capaz de permitir adicionar
+          interatividades e novas funções nas páginas web.
           <br />
           <a
             href="/frontend/introducao-js"
