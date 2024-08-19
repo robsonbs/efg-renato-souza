@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./pages.module.css";
+import styles from "/pages/pages.module.css";
 function Frontend() {
   return (
     <>
@@ -37,14 +37,16 @@ function Frontend() {
           >
             Referência Figma
           </a>
-          Iniciando as CSS:{" "}
+        </article>
+        <article>
+          <h2>Iniciando as CSS:</h2>
           <a
             href="https://youtu.be/XkbCeZ8M2zw"
             target="_blank"
             rel="noreferrer"
           >
             Página de receita - Aula 4
-          </a>
+          </a>{" "}
           Avaliação:{" "}
           <a
             href="https://kahoot.it/challenge/01664726?challenge-id=a6277a3b-9978-4169-bcad-cbaa24acedab_1718734412266"
@@ -52,6 +54,20 @@ function Frontend() {
             rel="noopener noreferrer"
           >
             Kahoot
+          </a>
+        </article>
+        <hr />
+        <h2>3º Bimestre</h2>
+        <article>
+          <h2>Introdução ao JavaScript(JS)</h2>
+          Linguagem de programação para web, capaz de permitir adicionar interatividades e novas funções nas páginas web.
+          <br />
+          <a
+            href="/frontend/introducao-js"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Slides
           </a>
         </article>
         <Link href="/"> Aulas de UX-UI</Link>
