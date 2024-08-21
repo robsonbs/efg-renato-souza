@@ -25,6 +25,16 @@ function Introducao() {
       </p>
       <h2>Variáveis</h2>
       <p>Váriáveis são como caixas capazes de guardar algo dentro:</p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Grtqa7JGa5M?si=deUFqb9QIXtwMT6a"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
       <p>
         Em JS podemos criar variáveis de duas maneiras, usando as palavras let e
         const, como em:
