@@ -71,6 +71,19 @@ function Frontend() {
             Slides
           </a>
         </article>
+        <article>
+          <h2>Lendo valores em JavaScript(JS)</h2>
+          Agora que sabemos que o JS pode guardar valores, precisamos descobrir
+          maneiras de passar dados para que o código possa fazer alguma coisa.
+          <br />
+          <a
+            href="/frontend/lendo-variaveis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Slides
+          </a>
+        </article>
         <Link href="/"> Aulas de UX-UI</Link>
       </section>
     </>

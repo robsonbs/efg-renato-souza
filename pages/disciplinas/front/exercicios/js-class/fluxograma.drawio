@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="wne8hgQE4QGg4m9PGV5c" name="Página-1">
+        <mxGraphModel dx="586" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="10" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Indica o começo de um fluxograma" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="50" width="30" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="liga pontos/elementos e direção" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="130" width="30" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&quot;Bem vindo, isso foi escrito a partir de JavaScript&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="240" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Usado para saída e entrada de dados." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="250" width="30" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Final" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="430" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Indica o final do fluxo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="440" width="30" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="ePar?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="520" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="indica algum teste/verificação, terminando em um&lt;br&gt;&amp;nbsp;ponto de interrogação" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="550" width="30" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

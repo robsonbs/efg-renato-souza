@@ -24,7 +24,7 @@ function Introducao() {
         pelo computador.
       </p>
       <h2>Variáveis</h2>
-      <p>Váriáveis são como caixas capazes de guardar algo dentro:</p>
+      <p>Variáveis são como caixas capazes de guardar algo dentro:</p>
       <iframe
         width="560"
         height="315"
@@ -46,7 +46,6 @@ function Introducao() {
         </code>
       </pre>
       <p>
-        {" "}
         A diferença entre as duas é que const é usando para algo
         &quot;constante&quot;, que não muda e let para algo que pode mudar
         durante a execução. Curiosidade: let vem da expressão &quot;let it
@@ -91,10 +90,150 @@ function Introducao() {
 
       <h3>Vetor/Matriz (Array)</h3>
       <p>
-        {" "}
         Permite guardar conjuntos de valores, como um conjunto de valores. Ex.:
         Temperaturas dos últimos dias.
       </p>
+      <h2>Antes de continuarmos: Fluxogramas - vendo os caminhos do script</h2>
+      <p>
+        Os fluxogramas ajudam a descrever as etapas de um processo em ordem
+        sequencial usando apenas formas, linhas e setas.
+      </p>
+      <h3>O que é um fluxograma?</h3>
+      <p>
+        Um fluxograma é um tipo de diagrama que explica visualmente um processo
+        ou fluxo de trabalho (workflow), por isso também é chamado de diagrama
+        de fluxo. Usando símbolos e definições padronizados, os fluxogramas
+        descrevem visualmente as diferentes etapas e decisões de um processo.
+        Esses diagramas são populares em diversas áreas há muitos anos - desde
+        engenharia e educação até programação de softwares e gerenciamento de
+        projetos.
+      </p>
+      <p>
+        Os fluxogramas são úteis para a comunicação desde os processos mais
+        simples até mesmo os mais complexos, por isso são incrivelmente
+        dinâmicos e versáteis. Ao olhar para um fluxograma, um espectador deve
+        ser capaz de obter uma visão geral de um processo facilmente.
+      </p>
+      <p>
+        Normalmente, um fluxograma é desenhado usando vários símbolos, cada um
+        representando uma etapa diferente dentro de uma sequência ou processo.
+        Geralmente usamos uma variedade de elementos e formas para montar um
+        fluxograma como: ações, materiais, serviços, entradas e saídas. Se você
+        tem uma decisão que precisa ser tomada e não tem certeza do processo,
+        usar um fluxograma pode simplificar muito a sua tomada de decisão.
+      </p>
+      <h3>Símbolos de fluxogramas</h3>
+      <p>
+        Existem notações e elementos padrões que são usados na maior parte dos
+        fluxogramas. Cada símbolo representa uma ação ou etapa diferente dentro
+        de uma sequência ou processo. Abaixo destacamos os símbolos mais comuns
+        usados em fluxogramas.
+      </p>
+      <ul>
+        <li>
+          <strong>Oval:</strong> Um elemento oval em um diagrama de fluxo
+          representa o terminal ou terminador. Ou seja, indica o início e a
+          parada dentro de uma sequência.
+        </li>
+        <li>
+          <strong>Paralelogramas:</strong> O paralelograma indica uma entrada ou
+          saída (&quot;input&quot; ou &quot;output&quot;).
+        </li>
+        <li>
+          <strong>Retângulo:</strong> Os retângulos indicam ações ou o processo
+          em si.
+        </li>
+        <li>
+          <strong>Diamantes:</strong> Diamantes indicam as decisões que precisam
+          ser tomadas. Estes geralmente resultam em dois caminhos alternativos
+          com base na decisão tomada.
+        </li>
+        <li>
+          <strong>Linhas de fluxo ou conectoras:</strong> As linhas de fluxo e
+          flechas representam as direções tomadas na sequência.
+        </li>
+      </ul>
+      <p>
+        <strong>Acompanhe a imagem e os elementos citados a pouco:</strong>
+      </p>
+      <img src="/files/fluxograma.png" alt="Fluxograma" />
+      <br />
+      <h4>Código:</h4>
+      <div
+        dir="ltr"
+        className="sandpack sandpack--codeblock rounded-2xl h-full w-full overflow-x-auto flex items-center bg-wash dark:bg-gray-95 shadow-lg my-8"
+        style={{ contain: "content" }}
+      >
+        <div className="sp-wrapper">
+          <div className="sp-stack">
+            <div className="sp-code-editor">
+              <pre className="sp-cm sp-pristine sp-javascript flex align-start">
+                <code className="sp-pre-placeholder grow-[2]">
+                  &lt;script&gt; <br />
+                  <span>
+                    alert(&quot;Bem vindo, isso foi escrito a partir de
+                    JS&quot;)
+                  </span>
+                  <br />
+                  &lt;script&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4>Explicando:</h4>
+      <p>
+        o comando(tag) <em style={{ color: "#FF204E" }}>script</em> cria o
+        espaço que pode receber os códigos JS.{" "}
+        <em style={{ color: "#FF204E" }}>alert</em> é um comando(função) que
+        abre uma caixa com o conteúdo dentro dos parênteses.
+      </p>
+      <p>outra maneira é a seguinte:</p>
+      <h4>Código:</h4>
+      <div
+        dir="ltr"
+        className="sandpack sandpack--codeblock rounded-2xl h-full w-full overflow-x-auto flex items-center bg-wash dark:bg-gray-95 shadow-lg my-8"
+        style={{ contain: "content" }}
+      >
+        <div className="sp-wrapper">
+          <div className="sp-stack">
+            <div className="sp-code-editor">
+              <pre className="sp-cm sp-pristine sp-javascript flex align-start">
+                <code className="sp-pre-placeholder grow-[2]">
+                  &lt;script&gt; <br />
+                  <span>
+                    document.write(&quot;Bem vindo, isso foi escrito a partir de
+                    JS&quot;)
+                  </span>
+                  <br />
+                  &lt;script&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4>Explicando:</h4>
+      <p>
+        o comando(tag) <em style={{ color: "#FF204E" }}>script</em> cria o
+        espaço que pode receber os códigos JS.{" "}
+        <em style={{ color: "#FF204E" }}>write</em> é um comando(função) que
+        escreve diretamente na página o conteúdo dentro dos parênteses, onde{" "}
+        <em style={{ color: "#FF204E" }}>document</em> representa a página da
+        internet carregada. Nesse caso, o comando write é algo que existe
+        &quot;dentro&quot; de document, por isso que escrevemos{" "}
+        <em style={{ color: "#FF204E" }}>document.write</em> para conseguir
+        escrever na página.
+      </p>
+      <p>
+        Ou seja, <em style={{ color: "#FF204E" }}>alert</em> é uma função da
+        linguagem(JS). E <em style={{ color: "#FF204E" }}>document.write</em> é
+        uma função ligado a página carregada, isso é uma das coisas
+        interessantes no JS.
+      </p>
+      <br />
+      <br />
       <Link href="/frontend/">Aulas Frontend</Link>
     </>
   );
