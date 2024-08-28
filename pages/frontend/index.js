@@ -86,13 +86,10 @@ function Frontend() {
         </article>
         <article>
           <h2>Escolhendo caminhos em JavaScript(JS)</h2>
-          Nem só de seguir em frente é a programação, há momentos que precisamos escolher um caminho.
+          Nem só de seguir em frente é a programação, há momentos que precisamos
+          escolher um caminho.
           <br />
-          <a
-            href="/frontend/decisao"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="/frontend/decisao" target="_blank" rel="noopener noreferrer">
             Slides
           </a>
         </article>
