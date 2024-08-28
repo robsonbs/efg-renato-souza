@@ -178,6 +178,23 @@ function Decisoes() {
           Leia duas alturas em centimetros e os nomes dessas pessoas é imprima o
           nome da pessoa mais alta
         </li>
+        <li>
+          Criar um script que leia a idade de uma pessoa e que mostre a sua
+          classe eleitoral:
+          <ul>
+            <li>Não-eleitor (abaixo de 16 anos);</li>
+            <li>Eleitor Obrigatório (entre 18 e 65 anos);</li>
+            <li>
+              Eleitor facultativo (entre 16 e 18 anos e maior de 65 anos).
+            </li>
+          </ul>
+        </li>
+        <li>
+          Faça um script para ler o nome e a idade de uma pessoa e determinar se
+          esta pessoa é ou não maior de idade (idade maior ou igual a 18 anos).
+          O programa deve imprimir a seguinte frase: &lt;&lt;nome&gt;&gt; tem
+          &lt;&lt;idade&gt;&gt; anos e (é/não é) maior de idade.
+        </li>
       </ol>
       <Link href="/frontend/">Aulas Frontend</Link>
     </>
