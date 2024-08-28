@@ -84,6 +84,18 @@ function Frontend() {
             Slides
           </a>
         </article>
+        <article>
+          <h2>Escolhendo caminhos em JavaScript(JS)</h2>
+          Nem só de seguir em frente é a programação, há momentos que precisamos escolher um caminho.
+          <br />
+          <a
+            href="/frontend/decisao"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Slides
+          </a>
+        </article>
         <Link href="/"> Aulas de UX-UI</Link>
       </section>
     </>
