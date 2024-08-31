@@ -93,6 +93,52 @@ function Frontend() {
             Slides
           </a>
         </article>
+        <article>
+          <h2>Estruturas de Decisão em JavaScript</h2>
+          Explorando conceitos fundamentais como if, else, e else if, o texto
+          apresenta a sintaxe básica dessas estruturas, exemplificando com
+          trechos de código comentados para facilitar o entendimento. Além
+          disso, o artigo introduz operadores lógicos como &&, ||, e !,
+          demonstrando como combiná-los para criar condições mais complexas.
+          <br />
+          <a
+            href="/frontend/decisao2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Slides
+          </a>
+        </article>
+        <article>
+          <h2>Estruturas de repetição em JavaScript</h2>
+          Descubra como utilizar os loops for, while e do...while para
+          automatizar tarefas repetitivas e otimizar o fluxo de seus programas,
+          com exemplos práticos e explicações passo a passo. Torne-se um mestre
+          no controle de iterações e melhore suas habilidades em programação,
+          explorando as nuances de cada estrutura e experimentando com desafios
+          reais.
+          <br />
+          <a
+            href="/frontend/repeticao"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Slides
+          </a>
+        </article>
+        <article>
+          <h2>Estruturas de eventos em JavaScript</h2>
+          Desvende os Segredos dos Eventos em JavaScript: Um Guia Completo para
+          Entender e Implementar Eventos de Forma Eficiente! Desde os conceitos
+          básicos e explora como capturar, gerenciar e manipular eventos em suas
+          aplicações web. Aprenda a utilizar o modelo de eventos, a implementar
+          listeners, e a lidar com propagação e delegação para criar interfaces
+          interativas e responsivas. Descubra exemplos práticos em JavaScript.
+          <br />
+          <a href="/frontend/eventos" target="_blank" rel="noopener noreferrer">
+            Slides
+          </a>
+        </article>
         <Link href="/"> Aulas de UX-UI</Link>
       </section>
     </>
