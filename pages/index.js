@@ -4,6 +4,35 @@ import styles from "./pages.module.css";
 function Home() {
   return (
     <>
+    <h1>Disciplinas</h1>
+    <section className={styles.section}>
+      <article>
+        <h2>Técnico de Ensino Médio em Ciência de dados</h2>
+        <span>
+          O curso técnico de ensino médio em ciência de dados tem como objetivo formar profissionais capazes de coletar, organizar, analisar e interpretar dados, utilizando ferramentas e técnicas de estatística, matemática e computação. O curso tem duração de 3 anos e é oferecido na modalidade presencial. O curso é dividido em 3 módulos, cada módulo tem duração de 1 ano. O curso é oferecido no período noturno.
+        </span>
+        <Link href="/ciencia-de-dados">Aulas</Link>
+      </article>
+      <article>
+        <h2>Backend</h2>
+        <span>Desenvolvimento de aplicações e serviços</span>
+        <Link href="/backend">Aulas</Link>
+      </article>
+      <article>
+        <h2>Frontend</h2>
+        <span>Desenvolvimento de interfaces web</span>
+        <Link href="/frontend">Aulas</Link>
+      </article>
+      <article>
+        <h2>UX/UI</h2>
+        <span>
+          Design de interfaces e experiências de usuário, focando na usabilidade,
+          acessibilidade, e consistência
+        </span>
+        <Link href="/ux-ui">Aulas</Link>
+      </article>
+    </section>
+    
       <h1>Aulas de UX/UI</h1>
       <section className={styles.section}>
         <article>
