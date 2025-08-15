@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function Introducao() {
@@ -156,7 +157,7 @@ function Introducao() {
       <p>
         <strong>Acompanhe a imagem e os elementos citados a pouco:</strong>
       </p>
-      <img src="/files/fluxograma.png" alt="Fluxograma" />
+      <Image src="/files/fluxograma.png" alt="Fluxograma" />
       <br />
       <h4>Código:</h4>
       <div

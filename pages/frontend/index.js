@@ -29,6 +29,18 @@ function Frontend() {
           >
             Design Figma
           </a>{" "}
+          <div>
+            <div>
+              <h3>Arquivos para Download</h3>
+              <a
+                href="files/receita/assets.zip"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                imagens
+              </a>
+            </div>
+          </div>
           Desafio:{" "}
           <a
             href="https://www.figma.com/design/TXbGJm53NFoAjA0cadFL0v/Receita-Junina-%E2%80%A2-Desafio-26-(Community)"
@@ -37,6 +49,18 @@ function Frontend() {
           >
             Referência Figma
           </a>
+          <div>
+            <div>
+              <h3>Arquivos para Download</h3>
+              <a
+                href="files/pamonha/assets.zip"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                imagens
+              </a>
+            </div>
+          </div>
         </article>
         <article>
           <h2>Iniciando as CSS:</h2>
