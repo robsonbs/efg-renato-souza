@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function LendoVariaveis() {
@@ -152,7 +153,7 @@ function LendoVariaveis() {
         </li>
       </ul>
       <p>O fluxograma seria próximo a isso:</p>
-      <img src="/files/soma.png" alt="Fluxograma" />
+      <Image src="/files/soma.png" alt="Fluxograma" />
       <br />
       <br />
       <Link href="/frontend/">Aulas Frontend</Link>
