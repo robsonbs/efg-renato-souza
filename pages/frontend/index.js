@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "/pages/pages.module.css";
+import Image from "next/image";
 function Frontend() {
   return (
     <>
@@ -82,6 +83,21 @@ function Frontend() {
         </article>
         <hr />
         <h2>3º Bimestre</h2>
+        <article>
+          <h2>Pegue as frutas</h2>
+          <p>Atividade prática para aplicar os conceitos de JS, CSS e HTML.</p>
+          <a
+            href="files/assets_frutas.zip"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download assets_frutas
+          </a>
+          <Image
+            src="files/0cef2628-dadc-4a77-becb-a78883363987 1 (2).png"
+            alt=""
+          />
+        </article>
         <article>
           <h2>Introdução ao JavaScript(JS)</h2>
           Linguagem de programação para web, capaz de permitir adicionar
