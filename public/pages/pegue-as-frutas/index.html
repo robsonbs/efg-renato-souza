@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="game-container">
+      <div id="placar-pontos">Pontos: <span id="pontos">0</span></div>
+
+      <div class="cesta-frutas costas"></div>
+      <div class="cesta-frutas frente"></div>
+
+      <!-- Telas do jogo -->
+
+      <div id="tela-inicio" class="tela-jogo">
+        <h1>Pegue as Frutas!</h1>
+        <p>Pegue as frutas que caem com sua cesta.</p>
+        <button id="inicio-btn">Iniciar jogo</button>
+      </div>
+
+      <div id="tela-fim-jogo" class="tela-jogo hidden">
+        <h2>Fim de Jogo!</h2>
+        <p>Sua pontuação final: <span id="pontos-final">0</span></p>
+        <button id="reiniciar-btn">Jogar Novamente</button>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

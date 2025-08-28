@@ -87,14 +87,24 @@ function Frontend() {
           <h2>Pegue as frutas</h2>
           <p>Atividade prática para aplicar os conceitos de JS, CSS e HTML.</p>
           <a
-            href="files/assets_frutas.zip"
+            href="files/assets_game.zip"
             target="_blank"
             rel="noopener noreferrer"
           >
             Download assets_frutas
           </a>
+          <a
+            href="/pages/pegue-as-frutas/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginLeft: "20px" }}
+          >
+            Vamos jogar!
+          </a>
           <Image
-            src="files/0cef2628-dadc-4a77-becb-a78883363987 1 (2).png"
+            src="/files/0cef2628-dadc-4a77-becb-a78883363987.png"
+            width={600}
+            height={600}
             alt=""
           />
         </article>
