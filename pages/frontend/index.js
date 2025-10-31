@@ -189,6 +189,65 @@ function Frontend() {
             Slides
           </a>
         </article>
+        <hr />
+        <h2>4º Bimestre</h2>
+        <article>
+          <h2>Fabrica de sites</h2>
+          <p>Atividade prática para aplicar os conceitos de JS, CSS e HTML.</p>
+          <a
+            href="https://robsonsouza-dev-rock.github.io/fabrica-sites/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginLeft: "20px" }}
+          >
+            Vamos ver o resultado!
+          </a>
+        </article>
+        <article>
+          <h2>Desenvolvimento Html e CSS</h2>
+          Aprenda os fundamentos do desenvolvimento web com HTML e CSS. Este
+          artigo aborda a estruturação de páginas web usando HTML e a
+          estilização com CSS, incluindo conceitos básicos, boas práticas e
+          exemplos práticos.
+          <br />
+          <a
+            href="/files/apostilas/FrontEndPrincipios_ALUNO_1bim.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apostila (parte 2 - pag 26)
+          </a>
+        </article>
+        <article>
+          <h2>Git e GitHub</h2>
+          Aprenda a utilizar o Git para controle de versão e o GitHub para
+          hospedagem de projetos. Este artigo aborda os conceitos básicos de
+          versionamento, comandos essenciais do Git e como colaborar em projetos
+          usando o GitHub.
+          <br />
+          <a
+            href="/files/apostilas/FrontEndPrincipios_ALUNO_1bim.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apostila (parte 1 - pag 41)
+          </a>
+        </article>
+        <article>
+          <h2>Validação de Formulários em JavaScript</h2>
+          Aprenda a validar dados de entrada do usuário em formulários web
+          utilizando JavaScript. Este artigo aborda técnicas para garantir que
+          os dados sejam corretos e seguros antes de serem enviados ao servidor.
+          <br />
+          <a
+            href="/files/apostilas/FrontEndPrincipios_ALUNO_2bim.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apostila (pag 143)
+          </a>
+        </article>
+
         <Link href="/"> Aulas de UX-UI</Link>
       </section>
     </>
